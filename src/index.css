@@ -1,0 +1,16 @@
+@font-face {
+    font-family: SFNS;
+    src: url(/fonts/sfns-system-san-francisco-display.ttf);
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: SFNS;
+  background: rgb(135,0,205);
+}

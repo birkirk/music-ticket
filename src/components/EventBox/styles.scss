@@ -1,0 +1,65 @@
+.EventBox {
+    display: flex;
+    margin: auto;
+    width: 100%;
+    max-width: 676px;
+    margin-top: 10vh;
+    border-radius: 5px;
+    overflow: hidden;
+    box-shadow: 15px 15px 0 rgb(110,0,190);
+}
+
+.EventBox-image {
+    width: 40%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    background-size: cover;
+    background-position: 50% 50%;
+}
+
+.EventBox-main {
+    width: 60%;
+}
+
+.EventBox-main-head {
+    padding: 14px 40px;
+    position: relative;
+    background: rgb(37,37,37);
+    box-shadow: 0 0 40px rgb(10,10,10);
+}
+
+.EventBox-main-foot {
+    padding: 30px 40px;
+    background: rgb(25,25,25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.purchase-button {
+    background: rgb(150,0,270);
+    border: none;
+    width: 100%;
+    text-transform: uppercase;
+    color: #fff;
+    letter-spacing: 3px;
+    font-size: 14px;
+    font-weight: 100;
+    margin: 15px 0;
+    padding: 14px;
+    border-radius: 4px;
+    transition: background 0.2s;
+}
+
+.purchase-button:hover {
+    background: rgb(160,0,280);
+    cursor: pointer;
+}
+
+.purchase-button:focus {
+    outline: none;
+}

@@ -1,0 +1,31 @@
+.Details {
+  display: flex;
+  padding: 10px 0; }
+
+.Details-block {
+  position: relative;
+  padding-left: 25px; }
+
+.Details-block img {
+  position: absolute;
+  height: 20px;
+  left: 0; }
+
+.Details-block p {
+  font-weight: 100;
+  letter-spacing: 1px;
+  font-size: 14px;
+  margin: 0;
+  padding: 2px 0; }
+
+.Details-block-head {
+  color: #fff; }
+
+.Details-block-main {
+  color: #666; }
+
+.Details-location {
+  width: 60%; }
+
+.Details-price {
+  width: 40%; }

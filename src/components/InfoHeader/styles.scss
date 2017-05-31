@@ -1,0 +1,63 @@
+.InfoHeader {
+    display: flex;
+    padding: 20px 0;
+}
+
+.InfoHeader h1, 
+.InfoHeader h2, 
+.InfoHeader h3 {
+    margin: 0;
+    font-weight: 100;
+}
+
+.InfoHeader h1 {
+    color: #fff;
+    letter-spacing: 4px;
+    font-size: 40px;
+    width: 65%;
+}
+
+.InfoHeader h2 {
+    margin-top: -7px;
+    font-size: 34px;
+    letter-spacing: 2px;
+    line-height: 28px;
+}
+
+.InfoHeader h3 {
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    line-height: 14px;
+}
+
+.InfoHeader-date {
+    position: relative;
+    width: 35%;
+    color: #fff;
+}
+
+.circle {
+    position: absolute;
+    border-radius: 50%;
+}
+
+.InfoHeader-pink-circle {
+    background: rgb(255,16,117);
+    height: 85px;
+    width: 85px;
+    right: -15px;
+    top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.InfoHeader-purple-circle {
+    background: rgba(155,30,235,0.7);
+    height: 46px;
+    width: 46px;
+    right: 38px;
+    top: 57px;
+}

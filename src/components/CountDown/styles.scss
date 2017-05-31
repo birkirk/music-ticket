@@ -1,0 +1,41 @@
+.CountDown {
+    width: 100%;
+    background: rgb(37,37,37);
+    border-radius: 4px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 0 -2px 0 rgb(50,50,50);
+    position: relative;
+}
+
+.CountDown p {
+    color: #666;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    z-index: 1;
+}
+
+.CountDown p:nth-child(2) {
+    border-left: 1px solid #555;
+    border-right: 1px solid #555;
+}
+
+.CountDown span {
+    color: #fff;
+    font-size: 20px;
+}
+
+.CountDown::after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background: rgb(37,37,37);
+    transform: rotate(45deg);
+    bottom: -4px;
+}
