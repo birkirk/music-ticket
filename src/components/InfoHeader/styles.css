@@ -52,3 +52,17 @@
   width: 46px;
   right: 38px;
   top: 57px; }
+
+@media (max-width: 760px) {
+  .InfoHeader {
+    padding: 20px 0 50px 0; } }
+
+@media (max-width: 420px) {
+  .InfoHeader {
+    padding: 20px 0 40px 0; }
+  .InfoHeader h1 {
+    font-size: 30px; }
+  .InfoHeader-pink-circle {
+    top: 0; }
+  .InfoHeader-purple-circle {
+    top: 40px; } }
